@@ -67,6 +67,15 @@ header nav .container{
     cursor: pointer;
 }
 
+/* hover su btn/link */
+.nav-links a:hover{
+    color: #1a1a1a;
+}
+
+.nav-icon i:hover{
+    color: #1a1a1a;
+}
+
 /* MAIN PRODOTTI */
 main{
     padding-top: 50px;
@@ -91,6 +100,19 @@ main{
 .product-card {
     display: block;
     position: relative;
+}
+
+/* hover su immagine */
+
+.img-back{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+.product-card:hover .img-back{
+    display: block;
 }
 
 .btn-overlay{
@@ -194,4 +216,8 @@ ul a{
     font-size: 1.3rem;
 }
 
+/* hover su btn/link */
+a:hover{
+    color: #ff6900;
+}
 
