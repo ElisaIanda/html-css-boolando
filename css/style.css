@@ -3,3 +3,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+header{
+    background-color: #ff6900;
+    padding-top: 1rem;
+}
+
+header nav{
+    margin-bottom: 1rem;
+}
+
+.nav-links, 
+.nav-logo,
+.nav-icon{
+    padding: .5rem;
+}
+
+header nav .container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+/* Per i link */
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li{
+    padding-right: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.nav-links ul a{
+    display: inline-block;
+    padding: 0 .3rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* Per il logo */
+.nav-logo{
+    width: 160px;
+}
+
+/* Per le icone */
+.nav-icon i{
+    color: white;
+    padding-right: 0.2rem;
+}
