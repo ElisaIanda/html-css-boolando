@@ -143,3 +143,50 @@ main{
     color: #ff0000;
 }
 
+/* Footer */
+
+footer{
+    background-color: #1a1a1a ;
+}
+
+.row{
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 0;
+}
+
+.footer-links, .footer-social{
+    color: white;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+}
+
+.footer-information ul a{
+    padding-right: 0.3rem;
+}
+
+.footer-social-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-icon ul a{
+    padding-right: 0.9rem;
+}
+
+.footer-social-icon i{
+    font-size: 1.3rem;
+}
+
+
