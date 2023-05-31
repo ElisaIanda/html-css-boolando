@@ -16,13 +16,11 @@ body {
     align-items: center;
 }
 
-header{
-    background-color: #ff6900;
-    padding-top: 1rem;
-}
-
 header nav{
-    margin-bottom: 1rem;
+    background-color: #ff6900;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 .nav-links, 
@@ -34,7 +32,6 @@ header nav{
 header nav .container{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 1rem;
     align-items: center;
 }
 
@@ -43,6 +40,7 @@ header nav .container{
     list-style: none;
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 .nav-links li{
@@ -66,4 +64,82 @@ header nav .container{
 .nav-icon i{
     color: white;
     padding-right: 0.2rem;
+    cursor: pointer;
 }
+
+/* MAIN PRODOTTI */
+main{
+    padding-top: 50px;
+}
+
+.flex-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: 33.3%;
+    padding: 1rem 1rem; 
+}
+
+.product-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-card {
+    display: block;
+    position: relative;
+}
+
+.btn-overlay{
+    position: absolute;
+    bottom: 2rem;
+}
+
+.btn-overlay .product-sales{
+    background-color: #ff0000;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    padding: 0.3rem 0.5rem;
+}
+
+.btn-overlay .product-sustainability{
+    background-color: #008000;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    padding: 0.3rem 0.5rem;
+}
+
+.btn-heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: black;
+    background-color: white;
+}
+
+.btn-heart i{
+    padding: 0.5rem;
+}
+
+.product-description h4{
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.product-description h2{
+    font-size: 1.2rem;
+}
+
+.price{
+    font-size: 0.9rem;
+}
+
+.price .product-sales-red{
+    color: #ff0000;
+}
+
