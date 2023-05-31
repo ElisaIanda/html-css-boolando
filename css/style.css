@@ -122,6 +122,11 @@ main{
     background-color: white;
 }
 
+.btn-heart:hover{
+    color: #ff0000;
+    font-size: 1.2rem;
+}
+
 .btn-heart i{
     padding: 0.5rem;
 }
